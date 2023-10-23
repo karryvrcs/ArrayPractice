@@ -99,6 +99,13 @@ public class Main {
         if (Arrays.equals(s1,s2)){
             System.out.println("Arrays are equal!");
         }
+
+        int[] sdArray = SortedArray.getRandomArray(10);
+        System.out.println(Arrays.toString(sdArray));
+
+
+        int[] Array2 = SortedArray.bubbleSort(sdArray);
+        System.out.println(Arrays.toString(Array2));
     }
 
 
